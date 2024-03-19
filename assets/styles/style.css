@@ -84,3 +84,10 @@ button:active {
   text-align: center;
   margin: 0 0.5rem;
 }
+
+@media (max-width: 600px) {
+  #health-levels,
+  #controls {
+    width: 90%;
+  }
+}
